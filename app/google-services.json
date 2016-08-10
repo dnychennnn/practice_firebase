@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1044782398844",
+    "firebase_url": "https://voltaic-future-108416.firebaseio.com",
+    "project_id": "voltaic-future-108416",
+    "storage_bucket": "voltaic-future-108416.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044782398844:android:46308e4534b7b880",
+        "android_client_info": {
+          "package_name": "com.example.denny.practice_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1044782398844-kq6jkckqo3rjuisrblfvucded655vki2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.denny.practice_firebase",
+            "certificate_hash": "4731DFAA5089507D1FDCA6C9DEE4C8C5F0957B33"
+          }
+        },
+        {
+          "client_id": "1044782398844-mmq8952f0imqnn5he8sdvpd57lt3ic9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6zVfniG3xtlF6XdzjV88KE73y_wFQccw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1044782398844-mmq8952f0imqnn5he8sdvpd57lt3ic9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
