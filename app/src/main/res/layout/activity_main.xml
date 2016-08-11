@@ -9,12 +9,64 @@
     tools:context="com.example.denny.practice_firebase.MainActivity">
 
     <TextView
+        android:text="Password: "
+        android:layout_width="147dp"
+        android:layout_height="46dp"
+        android:id="@+id/textView"
+        android:textSize="24sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintTop_toTopOf="@+id/activity_main"/>
+
+    <TextView
+        android:text="Email: "
+        android:layout_width="108dp"
+        android:layout_height="34dp"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintTop_toTopOf="@+id/activity_main"/>
+
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
-        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_email"
+        android:layout_marginEnd="32dp"
         app:layout_constraintRight_toRightOf="@+id/activity_main"
         app:layout_constraintTop_toTopOf="@+id/activity_main"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password"
+        app:layout_constraintTop_toBottomOf="@+id/editText_email"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_register"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_main"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"
+        app:layout_constraintRight_toLeftOf="@+id/button_signin"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintHorizontal_bias="0.47"
+        android:text="Register"/>
+
+    <Button
+        android:text="Sign In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_signin"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_main"
+        app:layout_constraintBottom_toBottomOf="@+id/activity_main"/>
 
 </android.support.constraint.ConstraintLayout>
